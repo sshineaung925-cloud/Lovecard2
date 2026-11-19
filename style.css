@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #ffd6e7, #fff0f6);
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+.card {
+  width: 100%;
+  max-width: 360px;
+  background: #ffffff;
+  border: 3px solid #f48fb1;
+  border-radius: 26px;
+  padding: 30px 22px;
+  text-align: center;
+  box-shadow: 0 12px 28px rgba(233, 30, 99, 0.16);
+}
+
+.heart {
+  font-size: 46px;
+  margin-bottom: 10px;
+  animation: pulse 1.2s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.18);
+  }
+}
+
+h2 {
+  color: #ad1457;
+  font-size: 22px;
+  margin-bottom: 14px;
+}
+
+.love-main {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 14px 0;
+}
+
+mark {
+  background-color: #ffe0ec;
+  color: #c2185b;
+  padding: 4px 12px;
+  border-radius: 12px;
+}
+
+#extraMsg {
+  color: #444;
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #e91e63;
+  color: #fff;
+  border: none;
+  border-radius: 999px;
+  padding: 12px 24px;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 6px 14px rgba(233, 30, 99, 0.25);
+}
+
+button:active {
+  transform: scale(0.96);
+}
